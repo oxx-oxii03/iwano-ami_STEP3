@@ -1,7 +1,7 @@
 /* TNG CAFE CSS */
 body {
     font-family: "Yu Gothic";
-    background-color: #;
+    background-color: #f9f9f9;
     color: #000;
     line-height: 1.6;
     margin: 0;
@@ -16,20 +16,20 @@ body {
 /* ヘッダーのデザイン */
   header {
     background-color: #E8F5E9;
-    color: white;
+    color: #294D3A;
     text-slign: center;
   }
 
 /* ナビゲーションのデザイン */
   nav {
-    background-color: #eee;
+    background-color: #294D3A;
     padding: 10px 20px;
   }
 
   nav ul {
     list-style: none;
     padding: 0;
-    display: flex;
+    display: flex; 60px;
     flex-wrap: wrap;
   }
 
@@ -43,7 +43,7 @@ body {
   }
 
   nav a:hover {
-    color: #4CAF50;
+    color: #333;
     font-weight: bold;
   }
 
