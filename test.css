@@ -1,7 +1,7 @@
 /* TNG CAFE CSS */
 body {
     font-family: "Yu Gothic";
-    background-color: #E8F5E9;
+    background-color: #;
     color: #000;
     line-height: 1.6;
     margin: 0;
@@ -15,7 +15,7 @@ body {
 
 /* ヘッダーのデザイン */
   header {
-    background-color: #E294D3A;
+    background-color: #E8F5E9;
     color: white;
     text-slign: center;
   }
@@ -49,7 +49,7 @@ body {
 
 /* 各セクションの見出し */
 section h2 {
-  border-bottom: 2px solid #4CAF50;
+  border-bottom: 2px solid #;
   padding-bottom: 5px;
   margin-top: 30px;
 }
