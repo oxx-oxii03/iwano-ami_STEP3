@@ -8,8 +8,79 @@ body {
     padding: 0;
   }
 
-
+/* 全体の余白 */
     main, section, header, footer, aside, nav {
-      padding: 20px;
+      padding: 30px;
     }
 
+/* ヘッダーのデザイン */
+  header {
+    background-color: #4CAF50;
+    color: white;
+    text-slign: center;
+  }
+
+/* ナビゲーションのデザイン */
+  nav {
+    background-color: #eee;
+    padding: 10px 20px;
+  }
+
+  nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  nav li {
+    margin-right: 15px;
+  }
+
+  nav a {
+    text-decoration: none;
+    color: #333;
+  }
+
+  nav a:hover {
+    color: #4CAF50;
+    font-weight: bold;
+  }
+
+/* 各セクションの見出し */
+section h2 {
+  border-bottom: 2px solid #4CAF50;
+  padding-bottom: 5px;
+  margin-top: 30px;
+}
+
+/* 画像の調節 */
+img {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin: 10px 0;
+}
+
+/* 表(テーブル)のデザイン */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  psdding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #f0f0f0;
+}
+
+/* フォームのスタイル */
+form {
+  margin-top: 20px;
+}
