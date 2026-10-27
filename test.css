@@ -29,8 +29,9 @@ body {
   nav ul {
     list-style: none;
     padding: 0;
-    display: flex; 60px;
-    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
   }
 
   nav li {
@@ -84,3 +85,11 @@ th {
 form {
   margin-top: 20px;
 }
+
+/* 全体の文字を中央揃え */
+header, main, section, footer {
+    text-align: center;
+}
+
+/*  */
+
