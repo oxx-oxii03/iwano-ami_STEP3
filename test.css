@@ -23,7 +23,7 @@ body {
 /* ナビゲーションのデザイン */
   nav {
     background-color: #123524;
-    padding: 10px 20px;
+    padding: 60px;
   }
 
   nav ul {
@@ -32,10 +32,6 @@ body {
     display: flex;
     justify-content: center;
     gap: 30px;
-  }
-
-  nav li {
-    margin-right: 15px;
   }
 
   nav a {
@@ -72,9 +68,9 @@ table {
 }
 
 th, td {
-  border: 1px solid #ccc;
-  psdding: 10px;
-  text-align: left;
+  border: 3px solid #000;
+  psdding: 15px;
+  text-align: center;
 }
 
 th {
