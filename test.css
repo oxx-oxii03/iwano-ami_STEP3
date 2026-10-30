@@ -60,32 +60,13 @@ img {
   margin: 10px 0;
 }
 
-/* 表(テーブル)のデザイン */
-table {
-  width: 100%;
-  border-collapse: collapse;
-  margin-top: 15px;
-}
-
-th, td {
-  border: 3px solid #000;
-  psdding: 15px;
-  text-align: center;
-  list-style: none;
-  padding: 0;
+/* デザイン */
+.menu-container {
   display: flex;
   justify-content: center;
-  gap: 30px
+  gap: 20px;
 }
 
-th {
-  background-color: #f0f0f0;
-}
-
-/* フォームのスタイル */
-form {
-  margin-top: 20px;
-}
 
 /* 全体の文字を中央揃え */
 header, main, section, footer {
