@@ -16,14 +16,14 @@ body {
 /* ヘッダーのデザイン */
   header {
     background-color: #1E3A5F;
-    color: #E3F2FD;
+    color: white;
     text-align: center;
   }
 
 /* ナビゲーションのデザイン */
   nav {
     background-color: #1E3A5F;
-    padding: 60px;
+    padding: 20px;
   }
 
   nav ul {
