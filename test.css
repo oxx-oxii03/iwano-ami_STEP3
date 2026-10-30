@@ -15,8 +15,8 @@ body {
 
 /* ヘッダーのデザイン */
   header {
-    background-color: #E3F2FD;
-    color: #1E3A5F;
+    background-color: #1E3A5F;
+    color: #E3F2FD;
     text-align: center;
   }
 
@@ -46,18 +46,17 @@ body {
 
 /* 各セクションの見出し */
 section h2 {
-  border-bottom: 2px solid #1E3A5F;
+  display: inline-block;
+  border-bottom: 2px solid #E3F2FD;
   padding-bottom: 5px;
   margin-top: 30px;
 }
 
 /* 画像の調節 */
-img {
-  max-width: 100%;
-  height: auto;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  margin: 10px 0;
+#section2 img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
 }
 
 /* デザイン */
@@ -72,6 +71,8 @@ img {
 header, main, section, footer {
     text-align: center;
 }
+
+
 
 /*  */
 
