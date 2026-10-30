@@ -61,10 +61,10 @@ section h2 {
 
 /* デザイン */
 .menu-container {
-  display: grid;
-  grid-template-columns: repeat(3, 180px);
+  display: flex;
   justify-content: center;
   gap: 20px;
+    flex-wrap: nowrap;
 }
 
 .menu-item {
