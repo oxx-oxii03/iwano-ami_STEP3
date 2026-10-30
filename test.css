@@ -64,6 +64,13 @@ section h2 {
   display: flex;
   justify-content: center;
   gap: 20px;
+  flex-wrap: wrap;
+}
+
+.menu-item {
+  border: 1px solid #1E3A5F;
+  padding: 15px;
+  border-radius: 8px;
 }
 
 
