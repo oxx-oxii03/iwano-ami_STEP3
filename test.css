@@ -83,5 +83,24 @@ header, main, section, footer {
 
 
 
-/*  */
+/* Contactの入力欄 */
+#section3 input,
+#section3 textarea {
+  width: 300px;
+  paddind: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* 送信ボタン */
+#section3 button {
+  background-color: #1E3A5F;
+  color: white;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
 
