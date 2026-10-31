@@ -80,7 +80,7 @@ section h2 {
 
 .menu-item:hover {
   transform: translateY( -5px);
-  box-shadow: 0.5px 15px rgba(0,0,0,0.2);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
 
 /* 全体の文字を中央揃え */
@@ -93,9 +93,7 @@ header, main, section, footer {
 /* Contactの入力欄 */
 #section3 input,
 #section3 textarea {
-  width: 300px;
   padding: 10px;
-  box-sizing: border-box;
   border: 1px solid #ccc;
   border-radius: 5px;
 }
@@ -108,8 +106,6 @@ header, main, section, footer {
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  width: 100%;
-  box-sizing: border-box;
 }
 
 #section3 form {
