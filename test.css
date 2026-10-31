@@ -75,7 +75,7 @@ section h2 {
   border: 1px solid #1E3A5F;
   border-radius: 8px;
   box-sizing: border-box;
-  transsition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .menu-item:hover {
@@ -110,13 +110,11 @@ header, main, section, footer {
   cursor: pointer;
   width: 100%;
   box-sizing: border-box;
-}
-
-#section3 form {
   width: 300px;
   margin: 0 auto;
   text-align: left;
 }
+
 
 #section1 img {
   border-radius: 8px;
