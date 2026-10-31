@@ -101,6 +101,8 @@ header, main, section, footer {
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 #section3 form {
