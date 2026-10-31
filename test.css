@@ -103,4 +103,10 @@ header, main, section, footer {
   cursor: pointer;
 }
 
+#section3 form {
+  width: 300px;
+  margin: 0 auto;
+  text-align: left;
+}
+
 
