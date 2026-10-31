@@ -110,15 +110,26 @@ header, main, section, footer {
   cursor: pointer;
   width: 100%;
   box-sizing: border-box;
+}
+
+#section3 form {
   width: 300px;
   margin: 0 auto;
   text-align: left;
 }
 
-
 #section1 img {
   border-radius: 8px;
 }
+
+#section3 input,
+#section3 textarea,
+#section3 button {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
 
 header p {
   font-style: italic;
