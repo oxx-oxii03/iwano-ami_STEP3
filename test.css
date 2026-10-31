@@ -62,8 +62,8 @@ section h2 {
 /* デザイン */
 .menu-container {
   display: flex;
-  justify-content: flex-start;
-  gap: 0px;
+  justify-content: center;
+  gap: 20px;
     flex-wrap: nowrap;
 }
 
