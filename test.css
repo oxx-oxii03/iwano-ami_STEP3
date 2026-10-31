@@ -118,6 +118,10 @@ header, main, section, footer {
   text-align: left;
 }
 
+#section1 img {
+  border-radius: 8px;
+}
+
 header p {
   font-style: italic;
 }
