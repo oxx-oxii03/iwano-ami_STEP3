@@ -125,14 +125,11 @@ header, main, section, footer {
     box-sizing: border-box;
 }
 
+header p {
+  font-style: italic;
+}
+
 footer {
   background-color: #1E3A5F;
   color: white;
-}
-
-
-
-
-header p {
-  font-style: italic;
 }
