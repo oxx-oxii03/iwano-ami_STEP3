@@ -112,4 +112,6 @@ header, main, section, footer {
   text-align: left;
 }
 
-
+header p {
+  font-style: italic;
+}
